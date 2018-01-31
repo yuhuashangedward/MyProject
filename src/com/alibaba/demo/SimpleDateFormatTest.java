@@ -1,3 +1,4 @@
+/*
 package com.alibaba.demo;
 
 import java.text.DateFormat;
@@ -21,7 +22,9 @@ public class SimpleDateFormatTest {
                 return new SimpleDateFormat("yyyy-MM-dd");
             }
         };
-    }
+    }*/
+/**//*
+
 
     public static void main(String[] args){
         Set<String> dateSet = new ConcurrentHashSet<>();
@@ -51,3 +54,4 @@ public class SimpleDateFormatTest {
         System.out.println(numberSet.size());
     }
 }
+*/

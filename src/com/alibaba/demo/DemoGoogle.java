@@ -1,5 +1,8 @@
 package com.alibaba.demo;
 
+import org.apache.commons.codec.binary.Base32;
+import org.apache.commons.codec.binary.Base64;
+
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
@@ -18,20 +21,20 @@ public class DemoGoogle {
     private static final String RANDOM_NUMBER_ALGORITHM = "SHA1PRNG";
 
     public static void main(String[] args){
-
+        generateSecretKey();
     }
-  /*  private static String generateSecretKey() {
-   *//*     SecureRandom sr = null;
+   private static String generateSecretKey() {
+        SecureRandom sr = null;
         try {
-       *//**//*     sr = SecureRandom.getInstance(RANDOM_NUMBER_ALGORITHM);
+            sr = SecureRandom.getInstance(RANDOM_NUMBER_ALGORITHM);
             sr.setSeed(Base64.decodeBase64(SEED));
             byte[] buffer = sr.generateSeed(SECRET_SIZE);
             Base32 codec = new Base32();
             byte[] bEncodedKey = codec.encode(buffer);
-            String encodedKey = new String(bEncodedKey);*//**//*
+            String encodedKey = new String(bEncodedKey);
             return null;
         }catch (NoSuchAlgorithmException e) {
         }
-        return null;*//*
-    }*/
+        return null;
+    }
 }
