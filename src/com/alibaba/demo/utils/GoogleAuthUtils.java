@@ -141,8 +141,8 @@ public class GoogleAuthUtils {
     public static void main(String[] args) {
         String key = genSecret();
         System.out.println(key);
-        boolean b = authcode("479261","LSJ6HZXYCB7CITPL");
-        String a = getQRBarcodeURL("280738120@qq.com","KHEJDTVSEK4UOQGN");
+        boolean b = authcode("061729","BCCJS6XYTABENRZB");
+        String a = getQRBarcodeURL("wangzhenwei@bitape.com","BCCJS6XYTABENRZB");
         System.out.println(a);
         System.out.println(b);
     }
