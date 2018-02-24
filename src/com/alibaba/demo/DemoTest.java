@@ -6,5 +6,8 @@ public class DemoTest {
         System.err.println(
                 "Hello 2018!"
         );
+
+        System.err.println(System.nanoTime());
+
     }
 }
