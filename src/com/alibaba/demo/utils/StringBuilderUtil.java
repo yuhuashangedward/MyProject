@@ -83,15 +83,8 @@ public class StringBuilderUtil {
                                 sb3.append( "so33meSt7ring" );
 
                                 a= sb3.toString() ;
-
                             }
-
                         System.out.println( "Way3="+(System.currentTimeMillis()-time) );
-
-
-
-
-
                    }
 
     }
