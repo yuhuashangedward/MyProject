@@ -22,6 +22,7 @@ public class TimeDemo {
         SimpleDateFormat sdf =   new SimpleDateFormat( " yyyy-MM-dd HH:mm:ss " );
         Date today = new Date();
 
+
         Calendar c = Calendar.getInstance();
         c.setTime(today);
         c.add(Calendar.DAY_OF_MONTH, 1);// 今天+1天
