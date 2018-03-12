@@ -113,7 +113,9 @@ public class NumberUtil {
     public static void main(String [] args){
 
         String dd = NumberUtil.getString4DC(3.1426843);
+        String dc = NumberUtil.getString4DC(3.14260087);
 
         System.err.println(dd);
+        System.err.println(dc);
     }
 }
